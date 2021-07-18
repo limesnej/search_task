@@ -41,3 +41,8 @@ input[type=text]{
     height: 36px;
     display: table-cell;
 }
+
+.All_forms {
+    clear:both;
+    float:left;
+}
