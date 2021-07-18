@@ -43,6 +43,9 @@ input[type=text]{
 }
 
 .All_forms {
-    clear:both;
-    float:left;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
 }
+
+All_forms > label { text-align: right;}
