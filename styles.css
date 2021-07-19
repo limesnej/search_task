@@ -12,7 +12,16 @@
     align-items: center;
 }
 
-input[type=text]{
+/* input[type=text]{
+    width: 500px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+} */
+
+.text_input{
     width: 500px;
     height: 35px;
     border-radius: 25px;
@@ -20,6 +29,7 @@ input[type=text]{
     font-size: 14px;
     outline: none;
 }
+
 #button1{
     justify-self: center;
     
@@ -48,4 +58,24 @@ input[type=text]{
     grid-gap:5px;
 }
 
+
+
+.button_adv {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    height: 30px;
+    user-select: none;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0ch;
+}
+
+.button_adv:hover {
+    background-color: #3079ed;
+}
 All_forms > label { text-align: right;}
