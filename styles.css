@@ -12,15 +12,6 @@
     align-items: center;
 }
 
-/* input[type=text]{
-    width: 500px;
-    height: 35px;
-    border-radius: 25px;
-    background-color: transparent;
-    font-size: 14px;
-    outline: none;
-} */
-
 .text_input{
     width: 500px;
     height: 35px;
@@ -29,6 +20,12 @@
     font-size: 14px;
     outline: none;
 }
+
+input[type=submit] {
+    height: 36px;
+    background-color: #f8f9fa;
+}
+
 
 #button1{
     justify-self: center;
